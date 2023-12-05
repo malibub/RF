@@ -55,7 +55,7 @@ data = heart_disease_df
 target = "HeartDiseaseorAttack"
 
 # i = 1
-# k = 4
+k = 4
 folds <- createFolds(heart_disease_df$HeartDiseaseorAttack, k = k, list = TRUE, returnTrain = TRUE)
 
 roc_data <- list()
